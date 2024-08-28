@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
+ b  
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -42,7 +42,7 @@ ZMK_TAP_DANCE(r_rot,
 
 /* Keymap */
 
-ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS)  // FN + NUM --> SYS
+ZMK_CONDITIONAL_LAYER(sys, NAV NUM, SYS)  // NAV + NUM --> SYS
 
 ZMK_LAYER(base,
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮                   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
